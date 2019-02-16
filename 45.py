@@ -1,6 +1,6 @@
-n=int(input())
+ni=int(input())
 c=0
-while(n>0):
+while(ni>0):
 	c=c+1
-	n=n//10
+	ni=ni//10
 print(c)
