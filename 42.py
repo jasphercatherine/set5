@@ -1,5 +1,7 @@
-ni,ki=input().split()
-if len(ni)>=len(ki):
-	print(ni)
+j,v=input().split()
+x=len(j)
+y=len(v)
+if(y>=x):
+  print(v)
 else:
-	print(ki)
+  print(j)
